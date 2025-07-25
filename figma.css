@@ -6,14 +6,14 @@
 }
 
 .logo {
-    margin-right: 700px;
+    margin-right: 600px;
     margin-left: 80px;
     font-size: 20px;
 }
 
 header {
     display: flex;
-    background-color: rgb(27, 27, 212);
+    background-color: rgb(0, 59, 119);
     color: white;
     justify-content: space-between;
     align-items: center;
@@ -21,9 +21,6 @@ header {
     padding: 15px 20px;
 }
 
-/* .nav{
-    margin-right: 200px;
-} */
 nav a {
     color: white;
     font-size: 15px;
@@ -43,6 +40,7 @@ nav a {
     font-size: 16px;
     padding: 5px 10px;
     margin-left: 10px;
+    margin-right: 50px;
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
@@ -53,7 +51,7 @@ nav a {
 }
 
 .hero {
-    background-color: rgb(32, 32, 220);
+    background-color: rgb(0, 59, 119);
     color: white;
     text-align: left;
     padding: 60px 25px;
@@ -148,7 +146,7 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(32, 32, 220);
+    background-color: rgb(0, 59, 119);
 }
 
 .exten-text h1 {
@@ -240,7 +238,7 @@ nav a {
 }
 
 #personal {
-    background-color: rgb(32, 32, 220);
+    background-color: rgb(0, 59, 119);
     border-radius: 10px;
     color: white;
     max-width: 300px;
@@ -264,7 +262,7 @@ nav a {
 }
 
 .your-work {
-    background-color: rgb(32, 32, 220);
+    background-color: rgb(0, 59, 119);
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -286,4 +284,168 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+}
+
+.data {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+.data img {
+    height: 300px;
+}
+
+.data h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.data p {
+    margin-bottom: 45px;
+}
+
+/* Our sponsors */
+.sponsors {
+    padding: 60px 30px;
+}
+
+.sponsors h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#spons {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Favorite App Section  */
+.apps {
+    background-color: rgb(0, 59, 119);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps img {
+    height: 300px;
+    margin: 50px 70px 50px 20px;
+}
+
+.app-head {
+    max-width: 700px;
+}
+
+.app-head h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn-9 {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+/* Clients Section */
+.clients {
+    margin: 60px;
+}
+
+.clients h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 30px;
+}
+
+#card-1 {
+    height: 420px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#card-1 img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#card-2 {
+    height: 420px;
+    width: 400px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 15px;
+    padding: 35px;
+    color: white;
+}
+
+#card-2 img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#card-3 {
+    height: 420px;
+    width: 400px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 15px;
+    padding: 35px;
+    color: white;
+}
+
+#card-3 img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.profile {
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+   border-top: 1px solid black;
+   padding-top: 30px;
+}
+
+.profile img {
+    height: 200px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.dot{
+    display: inline-block;
+    background-color:  rgb(0, 89, 255);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+     margin: 8px;
 }
