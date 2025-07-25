@@ -197,43 +197,67 @@ nav a {
     color: white;
 }
 
-.head-plan h1{
-font-size: 34px;
-display: flex;
-justify-content: center;
-}
-#head-p{
-display: flex;
-justify-content: center;
+.head-plan h1 {
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
 }
 
-.plan{
+#head-p {
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
     display: flex;
     justify-content: center;
     margin: 40px;
+    gap: 30px;
 }
-#free{
-    max-width: 300px;
-    margin-right: 35px;
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.plan ul li::before {
+    content: "✅";
+    margin-right: 8px;
+}
+
+#free {
+    background-color: white;
+    border: 1px solid rgb(255, 207, 15);
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 335px;
     line-height: 20px;
-    column-gap: 60px;
 }
 
-
-#personal{
+#personal {
     background-color: rgb(32, 32, 220);
     border-radius: 10px;
     color: white;
-     max-width: 300px;
+    max-width: 300px;
     margin-right: 35px;
     padding: 40px;
-    line-height: 20px;
-    column-gap: 60px;
 }
-.btn-7{
-     font-size: 16px;
+
+.btn-7 {
+    font-size: 16px;
     padding: 5px 10px;
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+}
+
+.fre-btn {
+    background-color: white;
+    border: 1px solid rgb(255, 207, 15);
+    border-radius: 5px;
+    padding: 8px;
 }
