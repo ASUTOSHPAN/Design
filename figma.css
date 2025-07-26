@@ -44,6 +44,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .section {
@@ -86,6 +87,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .manage {
@@ -95,8 +97,6 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* line-height: 30px;; */
-
 }
 
 .text h1 {
@@ -113,6 +113,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .work {
@@ -140,6 +141,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .exten {
@@ -165,6 +167,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .customise {
@@ -194,6 +197,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .head-plan h1 {
@@ -252,6 +256,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .fre-btn {
@@ -284,6 +289,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 .data {
@@ -352,6 +358,7 @@ nav a {
     border-radius: 5px;
     background-color: rgb(0, 162, 255);
     color: white;
+    cursor: pointer;
 }
 
 /* Clients Section */
@@ -422,11 +429,11 @@ nav a {
 }
 
 .profile {
-   display: flex;
-   align-items: center;
-   margin-top: 40px;
-   border-top: 1px solid black;
-   padding-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border-top: 1px solid black;
+    padding-top: 30px;
 }
 
 .profile img {
@@ -435,17 +442,108 @@ nav a {
     border-radius: 50%;
     margin-right: 15px;
 }
-.dots{
+
+.dots {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
 }
-.dot{
+
+.dot {
     display: inline-block;
-    background-color:  rgb(0, 89, 255);
+    background-color: rgb(0, 89, 255);
     height: 10px;
     width: 10px;
     border-radius: 50%;
-     margin: 8px;
+    margin: 8px;
+}
+
+/*  Try whitepace Today Section */
+.today {
+    background-color: rgb(0, 59, 119);
+    color: white;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.today h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.today p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#btn-10 {
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    cursor: pointer;
+}
+
+#logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Section */
+.footer {
+    background-color: rgb(0, 59, 119);
+    color: white;
+    padding: 20px 10px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 25px;
+}
+
+.whitepace {
+    max-width: 210px;
+}
+
+.whitepace h3 {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.start {
+    max-width: 230px;
+}
+
+.start h2,
+p {
+    margin-bottom: 14px;
+}
+
+.btn-11 {
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    cursor: pointer;
+}
+/* Footer-Bottom */
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(0, 59, 119);
+    color: white;
+    border-top: 1px solid rgb(82, 82, 82);
+}
+.footer-bottom .left{
+    text-decoration: none;
+    color: white;
+}
+.left select{
+    border: none;
+    
 }
